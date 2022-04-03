@@ -7,3 +7,4 @@ services:
       - '8082:8080'
     volumes:
       - ./target/java01-1.0-SNAPSHOT.war:/usr/local/tomcat/webapps/ROOT.war
+      - ./logs:/usr/local/tomcat/logs
